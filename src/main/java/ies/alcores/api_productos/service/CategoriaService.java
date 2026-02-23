@@ -26,4 +26,10 @@ public class CategoriaService {
 
     }
 
+    public List<Categoria> findIdBetween1and5() {
+
+        return this.categoriaRepository.findIdBetween1and5();
+
+    }
+
 }
